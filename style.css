@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .glass-card {
+    background: rgba(255, 255, 255, 0.02); /* ปรับให้ใสขึ้น สว่างน้อยลง */
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.05); /* เส้นขอบบางลงเพื่อความกลมกลืน */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3); /* ใส่เงาดำให้ตื้นขึ้น สร้างมิติ Dark Mode */
+  }
+}
+
+body {
+  background-color: #020617; /* Very deep slate black เป็นสีดำสนิทดูลึกลับ */
+  color: #F8FAFC;
+  overflow-x: hidden;
+}
+
+/* ZPRISE-style Dark Premium Liquid Background */
+.blob-container {
+  position: fixed;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  z-index: -1;
+  background: radial-gradient(circle at center, #0B1120 0%, #020617 100%);
+  overflow: hidden;
+}
+
+/* The magic mixing fluid blobs */
+.blob {
+  position: absolute;
+  filter: blur(120px); /* Massive blur ให้แสงกระจายแบบนุ่มนวลสุดๆ */
+  border-radius: 50%;
+  opacity: 0.35; /* ลดความสว่างแสง ให้เห็นแค่ Hint สีบางๆ แบบ Dark Mode */
+}
+
+/* Deep Navy & Indigo */
+.blob-1 {
+  width: 55vw; height: 55vw;
+  background: conic-gradient(from 0deg at 50% 50%, #1e3a8a, #312e81, #0f172a, #1e3a8a);
+  top: -20%; left: -20%;
+  animation: spin 30s linear infinite, floatA 15s ease-in-out infinite alternate;
+}
+
+/* Deep Purple Hint */
+.blob-2 {
+  width: 45vw; height: 45vw;
+  background: conic-gradient(from 180deg at 50% 50%, #4c1d95, #1e1b4b, #3730a3, #4c1d95);
+  bottom: -15%; right: -10%;
+  animation: spin 35s linear infinite reverse, floatB 20s ease-in-out infinite alternate;
+}
+
+/* Subtle Blue Glow */
+.blob-3 {
+  width: 35vw; height: 35vw;
+  background: conic-gradient(from 90deg at 50% 50%, #1e40af, #2563eb, #172554, #1e40af);
+  opacity: 0.2; /* จุดกึ่งกลางให้สว่างน้อยที่สุด เพื่อซัพพอร์ต Text แถวปุ่ม */
+  top: 30%; left: 30%;
+  animation: spin 40s linear infinite, floatC 25s ease-in-out infinite alternate;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes floatA {
+  0% { top: -20%; left: -20%; scale: 1; }
+  100% { top: 0%; left: 0%; scale: 1.1; }
+}
+
+@keyframes floatB {
+  0% { bottom: -15%; right: -10%; scale: 1; }
+  100% { bottom: 5%; right: 5%; scale: 1.05; }
+}
+
+@keyframes floatC {
+  0% { top: 30%; left: 30%; scale: 1; }
+  100% { top: 15%; left: 45%; scale: 0.95; }
+}
+
+/* Smooth entry animation */
+.animate-slide-up {
+  opacity: 0;
+  animation: slideUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e3a8a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3B82F6;
+}
