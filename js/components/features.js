@@ -23,7 +23,7 @@ const renderFeatures = () => {
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 max-w-3xl mx-auto animate-slide-up">
                 <h2 class="text-sm font-bold text-blue-400 uppercase tracking-widest mb-3">จุดเด่นของแพลตฟอร์ม</h2>
-                <h3 class="text-4xl md:text-5xl font-bold text-white mb-6">ฟีเจอร์ระดับพรีเมียม<br/>ครบจบบน Connershop</h3>
+                <h3 class="text-4xl md:text-5xl font-bold text-white mb-6">ฟีเจอร์ระดับพรีเมียม<br/>ครบจบบน Conneronline</h3>
                 <p class="text-slate-400 text-lg font-light">เรามีเครื่องมือชั้นนำทั้งหมดที่คุณต้องใช้ ในการเริ่มต้นและสเกลธุรกิจออนไลน์ของคุณ</p>
             </div>
             

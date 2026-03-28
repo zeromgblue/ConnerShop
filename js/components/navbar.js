@@ -9,7 +9,7 @@ const renderNavbar = () => {
                 <i data-lucide="layout-template" class="h-6 w-6 text-white"></i>
               </div>
               <span class="text-2xl font-bold tracking-tight text-white hover:text-blue-300 transition-colors">
-                Connershop
+                Conneronline
               </span>
             </a>
   

@@ -7,7 +7,7 @@ const renderFooter = () => {
               <div class="bg-blue-500/10 p-2 rounded-lg">
                 <i data-lucide="layout-template" class="h-6 w-6 text-blue-400"></i>
               </div>
-              <span class="text-2xl font-bold text-white">Connershop</span>
+              <span class="text-2xl font-bold text-white">Conneronline</span>
             </div>
             
             <div class="flex flex-wrap justify-center gap-6 text-sm text-slate-400">
@@ -18,7 +18,7 @@ const renderFooter = () => {
             </div>
           </div>
           <div class="mt-8 pt-8 border-t border-white/5 text-center text-slate-600 text-sm">
-            &copy; 2026 Connershop Website Renter Platform. All rights reserved.
+            &copy; 2026 Conneronline Website Renter Platform. All rights reserved.
           </div>
         </div>
       </footer>

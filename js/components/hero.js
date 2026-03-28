@@ -7,7 +7,7 @@ const renderHero = () => {
             <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
             <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
           </span>
-          Connershop V2.0 อัปเดตใหม่ เปิดให้บริการแล้ว
+          Conneronline V2.0 อัปเดตใหม่ เปิดให้บริการแล้ว
         </div>
         
         <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold text-white tracking-tight mb-6 animate-slide-up leading-tight" style="animation-delay: 200ms;">

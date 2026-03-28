@@ -20,7 +20,7 @@ const renderPricing = () => {
                     <ul class="space-y-4 mb-10 text-slate-300">
                         <li class="flex items-center gap-3"><i data-lucide="check" class="text-blue-400 w-5 h-5 bg-blue-400/10 p-1 rounded-full"></i> จัดการสินค้าได้ 100 รายการ</li>
                         <li class="flex items-center gap-3"><i data-lucide="check" class="text-blue-400 w-5 h-5 bg-blue-400/10 p-1 rounded-full"></i> ธีมเทมเพลตมาตรฐาน 5 แบบ</li>
-                        <li class="flex items-center gap-3"><i data-lucide="check" class="text-blue-400 w-5 h-5 bg-blue-400/10 p-1 rounded-full"></i> ซับโดเมนร้านค้าฟรี (shop.connershop.com)</li>
+                        <li class="flex items-center gap-3"><i data-lucide="check" class="text-blue-400 w-5 h-5 bg-blue-400/10 p-1 rounded-full"></i> ซับโดเมนร้านค้าฟรี (shop.conneronline.com)</li>
                         <li class="flex items-center gap-3 text-slate-500 opacity-50"><i data-lucide="x" class="w-5 h-5 bg-slate-500/10 p-1 rounded-full"></i> ระบบตะกร้าบัตรเครดิต</li>
                     </ul>
                     <button class="w-full glass-card hover:bg-white/10 text-white py-4 rounded-xl font-bold transition-colors">เช่าแพ็กเกจนี้</button>
